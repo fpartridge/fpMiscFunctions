@@ -2,8 +2,6 @@
 #'
 #' This function is a theme for ggplot that looks nice to me...
 #' @export
-#' theme_fp()
-
 theme_fp <- function() {
   theme_bw(base_size=12) %+replace%
     theme(
