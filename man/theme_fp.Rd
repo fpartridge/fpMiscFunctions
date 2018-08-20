@@ -8,5 +8,4 @@ theme_fp()
 }
 \description{
 This function is a theme for ggplot that looks nice to me...
-theme_fp()
 }

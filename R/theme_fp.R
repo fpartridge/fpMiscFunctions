@@ -1,6 +1,7 @@
 #' theme_fp
 #'
 #' This function is a theme for ggplot that looks nice to me...
+#' @export
 #' theme_fp()
 
 theme_fp <- function() {
