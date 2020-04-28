@@ -3,7 +3,7 @@
 #' This function is a theme for ggplot that looks nice to me...
 #' @export
 theme_fp <- function(squarePlot=FALSE) {
-  theme_bw(base_size=8) %+replace%
+  res <- theme_bw(base_size=8) +
     theme(
       panel.border=element_blank(),
       panel.grid.major=element_blank(),
@@ -13,6 +13,7 @@ theme_fp <- function(squarePlot=FALSE) {
       # aspect.ratio = 1
     )
   if (squarePlot) {
-    theme(aspect.ratio = 1)
+    res <- res + theme(aspect.ratio = 1)
   }
+  res
 }
